@@ -53,6 +53,7 @@
   <ItemGroup>
     <ResourceCompile Include="MyFsFilter.rc" />
     <ClCompile Include="Function.cpp" />
+    <ClCompile Include="List.cpp" />
     <ClCompile Include="MyFsFilter.c" />
     <Inf Include="MyFsFilter.inf" />
   </ItemGroup>
@@ -266,6 +267,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h" />
+    <ClInclude Include="List.h" />
     <ClInclude Include="MyFsFilter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
